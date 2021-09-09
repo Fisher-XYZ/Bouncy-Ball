@@ -15,7 +15,8 @@ currentLocation = "California"
 
 //:  - Experiment: Below, add a line of code that assigns a new value to `currentLocation`:
 // Assign a new value
-
+currentLocation = "lynchvirgs"
+print(currentLocation)
 /*:
  In most ways, constants and variables are the same:
 - Both use the same rules for names

@@ -13,6 +13,12 @@
  \
  Remember that `->` is used to say that a function returns a value.
  */
+func makeFavorite(categoryofThing:String,favorite:String)->String{
+    return "My favorite \(categoryofThing) is \(favorite)."
+}
+
+let fav1 = makeFavorite(categoryofThing: "car", favorite: "Jeep")
+print(fav1)
 
 //:  - Experiment: Call your new function a few times with some different categories, assigning each result to a different constant. Why not try categories like food, movie, school subject or band?
 

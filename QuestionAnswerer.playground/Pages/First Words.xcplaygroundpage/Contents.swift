@@ -8,11 +8,11 @@
 func responseTo(question: String) -> String {
     
     if question.hasPrefix("hello") {
-        return "Why, hello there"
+        return "hello to you"
     } else if question.hasPrefix("where") {
-        return "To the North!"
+        return "to Mars, dododo, let's go!"
     } else {
-        return "That really depends"
+        return "My ability is limited. "
     }
 }
 

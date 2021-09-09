@@ -23,7 +23,8 @@ lowerQuestion.hasPrefix("where")
 //:  - callout(Exercise): Rewrite the function below to work with aNy cAsE of QueStiOn TeXT, so you get a correct answer in the example:
 func responseTo(question: String) -> String {
     
-    if question.hasPrefix("hello") {
+    newquestion=question.lowercased()
+    if newquestion.hasPrefix("hello") {
         return "Why, hello there"
     } else {
         return "That really depends"

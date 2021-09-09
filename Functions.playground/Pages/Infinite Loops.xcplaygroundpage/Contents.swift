@@ -21,6 +21,8 @@ func merrilyDream() {
 func verseOne() {
     rowTheBoat()
     merrilyDream()
+    verseOne()
+    
 }
 
 verseOne()

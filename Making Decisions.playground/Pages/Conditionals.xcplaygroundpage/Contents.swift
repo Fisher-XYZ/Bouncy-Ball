@@ -13,12 +13,13 @@
 let videoLength = 5
 
 if videoLength < 5 {
-    "If I blinked, I'd miss it!"
+    print("If I blinked, I'd miss it!")
 }
 
 if videoLength >= 5 {
-    "That's lovely."
+    print("That's lovely.")
 }
+
 /*:
  This is called an _if statement_. It works like this:
  

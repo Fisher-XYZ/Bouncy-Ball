@@ -15,7 +15,9 @@
  - callout(Exercise): How many minutes of video will it take to fill the phone?\
  _Hint_: Do all of your calculations in megabytes (MB).
  */
- 
+ let capacity = 8000
+let already = 3000
+let time = (capacity-already)/150
 
 
 /*:

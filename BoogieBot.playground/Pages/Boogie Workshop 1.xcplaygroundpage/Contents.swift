@@ -19,6 +19,20 @@
 startBot()
 startRecording()
 
+func dancemybot(){
+    fabulize()
+    leftArmUp()
+    rightArmUp()
+    leftLegUp()
+    rightLegUp()
+    shakeItLeft()
+    shakeItRight()
+    defabulize()
+}
+dancemybot()
+dancemybot()
+dancemybot()
+
 /*:
 Continue with your creativity.
 

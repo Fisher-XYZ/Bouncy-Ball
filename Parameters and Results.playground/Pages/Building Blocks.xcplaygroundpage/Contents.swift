@@ -19,6 +19,7 @@ func listByAdding(item: String, toList: String) -> String {
 var list = "Milk"
 list = listByAdding(item:"Eggs", toList: list)
 list = listByAdding(item:"Bread", toList: list)
+print(list)
 //: Compare this to the way you were building lists before, with compound assignment:
 list += "\n" + "Rice"
 /*:
